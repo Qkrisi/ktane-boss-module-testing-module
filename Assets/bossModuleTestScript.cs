@@ -16,6 +16,6 @@ public class bossModuleTestScript : MonoBehaviour {
 	public string TwitchHelpMessage = "Use '!{0} <insert literally anything here>' to solve the module!";
 	IEnumerator ProcessTwitchCommand(string thisisnotneededbythemodule){
 		yield return null;
-		GetComponent<KMBombModule>().HandlePass();
+		yield return GetComponent<KMSelectable>();
 	}
 }
