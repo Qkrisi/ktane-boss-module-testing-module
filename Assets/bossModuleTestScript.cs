@@ -17,5 +17,6 @@ public class bossModuleTestScript : MonoBehaviour {
 	IEnumerator ProcessTwitchCommand(string thisisnotneededbythemodule){
 		yield return null;
 		yield return GetComponent<KMSelectable>();
+		yield return GetComponent<KMSelectable>();
 	}
 }
